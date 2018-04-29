@@ -3,36 +3,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Blog de Musica</title>
+    <title></title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
   </head>
   <body>
     <header>
-    <div class="container-fluid mt-3">
-      <div class="row">
-        <div class="col-4 pl-5">
-        <a href="#">
-          <img src="img/logo.png" width="90" height="90" alt="Logo">
-        </a>
+    <div class="container-fluid">
+      <div class="row d-flex flex-nowrap align-items-end mt-3 ">
+        <div class="col-4 ">
+          <a href="#"><img src="img/logo.png" class="img-fluid imglogo"></a>
         </div>
-        <div class="col-8 mb-0">
-          <ul class="list-unstyled list-inline mt-5 mb-auto d-flex justify-content-end">
-            <li class="list-inline-item"><a href="#"><img src="img/redes1.svg" width="30" height="30"></a></li>
-						<li class="list-inline-item"><a href="#"><img src="img/redes2.svg" width="30" height="30"></a></li>
-            <li class="list-inline-item"><a href="#"><img src="img/redes3.svg" width="30" height="30"></a></li>
-						<li class="list-inline-item"><a href="#"><img src="img/redes4.svg" width="30" height="30"></a></li>
-          </ul>
+        <div class="col-8 text-right ">
+          <a href="#"><img src="img/redes1.svg" class="img-fluid redes"></a>
+          <a href="#"><img src="img/redes2.svg" class="img-fluid redes"></a>
+          <a href="#"><img src="img/redes3.svg" class="img-fluid redes"></a>
+          <a href="#"><img src="img/redes4.svg" class="img-fluid redes"></a>
+          <a href="#"><img src="img/redes5.svg" class="img-fluid redes"></a>
         </div>
       </div>
     </div>
     </header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-3">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-1 sticky-top">
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="col-12 navbar-nav text-center justify-content-around">
-          <a class="nav-item nav-link" href="#">Inicio</a>
+        <div class="col-12 text-center justify-content-around navbar-nav">
+          <a class="nav-item nav-link active" href="#">Inicio</a>
           <a class="nav-item nav-link" href="#">Artistas</a>
           <a class="nav-item nav-link" href="#">Grupos</a>
           <a class="nav-item nav-link" href="#">Top 10</a>
@@ -42,13 +40,93 @@
       </div>
     </nav>
 
+    <div class="container">
+    <div class="row mt-3"> <!--Incluye section y aside-->
+      <section class="col-12 col-md-9">
+        <div class="row justify-content-center align-items-center"> <!--Inicio Post 1-->
+          <div class="col-12 col-md-8 text-justify">
+            <h2>Música del ayer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br>
+            <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="img/img_der.jpg" class="img-fluid">
+          </div>
+        </div>
 
+        <div class="row aling-items-center justify-content-center mt-2"> <!--Inicio Formulario-->
+          <div class="col-12">
+            <form>
+              <div class="form-group row align-items-center justify-content-center">
+                <label for="colFormLabel" class="col-2 col-form-label text-right"><img src="img/icon_comentario.svg" class="img-fluid iconcoment"></label>
+                <div class="col-10">
+                  <textarea  class="form-control aling-items-center" id="colFormLabel" rows="1" placeholder="Tus Comentarios" ></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin de formulario y Post 1-->
+        <hr>
 
+        <div class="row justify-content-center align-items-center"><!--Inicip Post 2-->
+          <div class="col-12 col-md-4">
+            <img src="img/img_izq.jpg" class="img-fluid">
+          </div>
+          <div class="col-12 col-md-8 text-justify">
+            <h2>Música de hoy</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <br>
+            <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
 
+        <div class="row aling-items-center justify-content-center"> <!--Inicio Formulario-->
+          <div class="col-12">
+            <form>
+              <div class="form-group row align-items-center justify-content-center">
+                <label for="colFormLabel" class="col-2 col-form-label text-right"><img src="img/icon_comentario.svg" class="img-fluid iconcoment"></label>
+                <div class="col-10">
+                  <textarea  class="form-control aling-items-center" id="colFormLabel" rows="1" placeholder="Tus Comentarios" ></textarea>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div> <!--Fin de formulario y Post 2-->
+        <hr>
 
+      </section><!--Fin del bloque de posteos-->
 
+      <aside class="col-3 d-none d-md-block">
+        <div class="row aling-items-center justify-content-center"> <!--Inicio del Aside-->
 
+          <form> <!--Inicio del buscador-->
+            <div class="form-group row align-items-center justify-content-center mx-0">
+              <label for="colFormLabe2" class="col-2 col-form-label"><img src="img/icon_buscar.svg" class="img-fluid iconbuscar"></label>
+              <div class="col-9">
+                <input class="form-control" type="search" placeholder="Buscar" aria-label="Search" id="colFormLabe2">
+              </div>
+            </div>
+          </form> <!--Fin del buscador-->
 
+        </div>
+
+        <div class="row aling-items-center justify-content-center">
+          <h4 class="text-center">Listado de opciones para búsqueda</h4>
+          <div class="list-group col-12 pr-0">
+            <a href="#" class="list-group-item text-center my-2">Años 50´s</a>
+            <a href="#" class="list-group-item text-center my-2">Años 60´s</a>
+            <a href="#" class="list-group-item text-center my-2">Años 70´s</a>
+            <a href="#" class="list-group-item text-center my-2">Años 80´s</a>
+            <a href="#" class="list-group-item text-center my-2">Años 90´s</a>
+            <a href="#" class="list-group-item text-center my-2">Año 2000´s</a>
+            <a href="#" class="list-group-item text-center my-2">Años 2010´s</a>
+          </div>
+        </div>
+      </aside>
+
+    </div>
+  </div>
 
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
